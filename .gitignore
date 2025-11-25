@@ -1,4 +1,4 @@
-.env
+.vscode/*
 modeloapp/__pycache__/*
 /apps/cinemas/__pycache__/*
 /apps/cinemas/migrations/*

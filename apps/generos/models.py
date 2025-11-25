@@ -4,7 +4,7 @@ from django.db import models
 class Genero(models.Model):
     nome = models.CharField('Nome', max_length=50)
     descricao = models.TextField('Descrição', max_length=400)
-    clasificacao_indicativa = models.CharField('Classificação Indicativa', max_length=50)
+    classificacao_indicativa = models.CharField('Classificação Indicativa', max_length=50)
     pais_de_origem = models.CharField('País de Origem', max_length=50)
 
     class Meta:
@@ -14,4 +14,4 @@ class Genero(models.Model):
 
 
     def __str__(self):
-        return f"{self.nome} (Classificação Indicativa: {self.clasificacao_indicativa})"
+        return f"{self.nome} (Classificação Indicativa: {self.classificacao_indicativa})"
