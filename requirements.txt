@@ -1,0 +1,9 @@
+pip
+python-decouple
+Django
+oracledb==3.3.0
+Pillow
+djangorestframework
+Markdown
+django-filter
+django-cors-headers
